@@ -3,7 +3,7 @@ a4-final-project-group-6-1 created by GitHub Classroom
 
 ## Application
 ### Name 
-NUS Cloud
+NUSCloud
 
 ### Description
 A web application to help students sync their files from IVLE to any cloud service of their choice in 3 clicks.
@@ -23,7 +23,10 @@ Wrote initial prototype syncing from IVLE to Dropbox
 Wrote backend code to sync from IVLE to Dropbox, Box and OneDrive
 Setup nginx, gunicorn, nodejs server on Google Cloud
 Setup Celery and redis for repeated tasks
+Report writing
 Setup HTTPS with Lets Encrypt for *.nuscloud.com
+
+
 
 
 ### Chiang Weng Kiat 
@@ -31,13 +34,15 @@ Matriculation Number: A0141128R
 
 Role: 
 Validation
-Marketing (opening of channels, plan)
+Marketing 
 User feedback and customer contact
 UI workflow
 Gdrive feature
 Database schema
 nginx, gunicorn scripts
 Https
+Report writing
+
 
 ### Samuel Henry Kurniawan
 Matriculation Number: A0144896M
@@ -46,10 +51,12 @@ Role:
 Website design (userview, header)
 Website responsive design
 API AJAX calls from backend, IVLE, and cloud services
+UI/UX user testing
 Google analytics
 Customer services
 Marketing (putting posters in several faculties, nuswhispers, and some targeted users)
 Report writing
+
 
 ### Tan Su Yee
 Matriculation Number: A0158673R
@@ -64,3 +71,4 @@ Final project promotional video
 Some api calls on frontend
 Get domain name
 Report writing
+
