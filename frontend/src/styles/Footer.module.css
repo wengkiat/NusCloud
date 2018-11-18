@@ -1,0 +1,11 @@
+.footer {
+    text-align: center;
+    background-color: #1b1c1d;
+    color: #cbcbcc;
+    padding: 20px;
+    width: 100%;
+}
+
+.divider {
+    padding: 10px;
+}

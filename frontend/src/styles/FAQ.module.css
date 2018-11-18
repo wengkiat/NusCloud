@@ -1,0 +1,44 @@
+.outer_container {
+    padding-top: 75px;
+    padding-bottom: 75px;
+    height: 100%;
+    width: 100%;
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+    padding-left: 75px;
+    padding-right: 75px;
+}
+
+@media only screen and (max-width: 991px) {
+    .container {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+}
+
+@media only screen and (max-width: 420px) {
+    .container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+.segment {
+    padding: 25px !important;
+    font-size: 1.2rem !important;
+}
+
+.header {
+    font-size: 4rem !important;
+    text-align: center;
+    padding-bottom: 50px !important;
+}
+
+.sectionHeader {
+    font-size: 2rem !important;
+    padding: 50px !important;
+    text-align: center;
+}

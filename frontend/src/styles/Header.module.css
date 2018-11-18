@@ -1,0 +1,41 @@
+* {
+    font-size: 12pt;
+}
+
+.header {
+    margin: 0px !important;
+    border-radius: 0px !important;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 1000 !important;
+}
+
+.sidebar {
+    position: fixed !important;
+    top: 0;
+    overflow-x: visible !important;
+    z-index: 1000;
+    border: 0px !important;
+    margin-top: 0px !important;
+}
+
+.sidebar_dimmer {
+    width: 100vw;
+    height: 150vh;
+    margin-top: -30vh;
+    background-color: black;
+    z-index: 100;
+    position: fixed;
+    opacity: 0.6;
+}
+
+.logo {
+    padding: 12px 8px !important;
+}
+
+.home {}
+.about {}
+.contact {}
+.faq {}
+

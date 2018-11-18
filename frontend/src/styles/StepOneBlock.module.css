@@ -1,0 +1,32 @@
+.stepOneContainer {
+    background-color: aliceblue;
+    display: flex;
+    padding: 75px 15px 75px 15px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+@media only screen and (min-width: 1110px) {
+    .stepOneContainer {
+        padding-left: calc((100% - 1110px)/2 + 15px);
+        padding-right: calc((100% - 1110px)/2 + 15px);
+    }
+}
+
+.stepOneImage {
+    height: auto;
+    /*width: 40rem;*/
+    object-fit: cover
+}
+
+.message {
+   padding: 25px;
+   width: 500px;
+}
+
+.image {
+  padding: 25px;
+  width: 500px;
+}

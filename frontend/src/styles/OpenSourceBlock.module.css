@@ -1,0 +1,29 @@
+.openSourceContainer {
+    background-color: aliceblue;
+    /* display: flex; */
+    padding: 75px 15px 75px 15px;
+    /* flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around; */
+    align-items: center;
+}
+
+.openSourceImage {
+    height: auto;
+    width: 40rem;
+    object-fit: cover
+}
+
+.message {
+   padding: 25px;
+   text-align: center;
+}
+
+.buttonWrapper {
+  padding: 25px;
+  text-align: center;
+}
+
+.header {
+    font-size: 3rem !important;
+}

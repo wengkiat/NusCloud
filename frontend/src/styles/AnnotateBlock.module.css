@@ -1,0 +1,25 @@
+.annotateContainer {
+    background-color: #1b1c1d;
+    display: flex;
+    padding: 75px 15px 75px 15px;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.annotateImage {
+    height: auto;
+    width: 40rem;
+    object-fit: cover
+}
+
+.message {
+   padding: 25px;
+   width: 500px;
+}
+
+.image {
+  padding: 25px;
+  width: 500px;
+}

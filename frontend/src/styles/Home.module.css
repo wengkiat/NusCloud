@@ -1,0 +1,31 @@
+.container {
+    background-image: url('../assets/Home/background.png');
+    top: 0;
+    left: 0;
+    width: 100%;
+    /*197px is footer, 54.81px is header*/
+    min-height: calc(100vh - 197px - 54.81px);
+    padding-top: 75px;
+}
+
+.image {
+    height: 10rem !important;
+    width: auto !important;
+}
+
+.header {
+    text-align: center;
+    font-size: 4rem !important;
+    padding: 20px !important;
+}
+
+.subHeader {
+    font-size: 1.5rem !important;
+    padding: 20px !important;
+}
+
+.button {
+    text-align: center;
+    margin: 20px;
+    margin-bottom: 100px;
+}

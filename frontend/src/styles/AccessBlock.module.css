@@ -1,0 +1,32 @@
+.accessContainer {
+    background-color: #1b1c1d;
+    display: flex;
+    padding: 75px 15px 75px 15px;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+@media only screen and (min-width: 1065px) {
+    .accessContainer {
+        padding-left: calc((100% - 1065px)/2 + 15px);
+        padding-right: calc((100% - 1065px)/2 + 15px);
+    }
+}
+
+.accessImage {
+    height: auto;
+    width: 40rem;
+    object-fit: cover
+}
+
+.message {
+   padding: 25px;
+   width: 500px;
+}
+
+.image {
+  padding: 25px;
+  width: 500px;
+}

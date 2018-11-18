@@ -1,0 +1,53 @@
+.container {
+    min-height: calc(100vh - 197px - 54.81px);
+}
+
+@media only screen and (max-width: 420px) {
+    .container {
+        padding: 50px 20px;
+    }
+}
+
+.firstSection {
+    padding: 75px;
+}
+
+@media only screen and (max-width: 600px) {
+    .firstSection {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .firstSection {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+.form {
+    font-size: 40pt !important;
+    padding-bottom: 75px;
+}
+
+.message {
+    padding: 0px 20px 20px 20px;
+}
+
+.contacts {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.header {
+    text-align: center;
+    font-size: 4rem !important;
+}
+
+.button {
+    margin-top: 5px !important;
+    margin-bottom: 5px !important;
+}

@@ -1,0 +1,64 @@
+.outer_container {
+    height: 100%;
+    width: 100%;
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+    padding-left: 75px;
+    padding-right: 75px;
+}
+
+@media only screen and (max-width: 991px) {
+    .container {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+}
+
+@media only screen and (max-width: 420px) {
+    .container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+.nuscloud {
+    display: block;
+    text-align: center;
+}
+
+.headerContainer {
+    /*padding: 75px;*/
+    text-align: center;
+}
+
+@media only screen and (min-width: 421px) {
+    .headerContainer {
+        /*padding: 75px;*/
+    }
+}
+
+.header {
+    font-size: 4rem !important;
+    text-align: center;
+    padding-top: 50px !important;
+    padding-bottom: 50px !important;
+}
+
+@media only screen and (max-width: 767px) {
+    .header {
+        font-size: 3.5rem !important;
+    }
+}
+
+@media only screen and (max-width: 420px) {
+    .header {
+        font-size: 3rem !important;
+    }
+}
+
+.subheader {
+    font-size: 1.5rem !important;
+}

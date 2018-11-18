@@ -1,0 +1,46 @@
+.stepsContainer {
+    background-color: #1b1c1d;
+    display: flex;
+    padding: 75px 15px 75px 15px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+@media only screen and (min-width: 1065px) {
+    .stepsContainer {
+        padding-left: calc((100% - 1065px)/2 + 15px);
+        padding-right: calc((100% - 1065px)/2 + 15px);
+    }
+}
+
+.stepsImage {
+    height: auto;
+    width: 40rem;
+    object-fit: cover
+}
+
+.message {
+   padding: 25px;
+   width: 250px;
+   /*width: 100%;*/
+   text-align: center;
+}
+/*
+@media only screen and (min-width: 500px) {
+    .message {
+        width: 50%;
+    }
+}
+
+@media only screen and (min-width: 750px) {
+    .message {
+        width: calc(100% / 3);
+    }
+}*/
+
+.image {
+  padding: 25px;
+  width: 500px;
+}
